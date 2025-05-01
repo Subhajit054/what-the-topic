@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>What the Topic</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📘 What the Topic</h1>
+  <input type="text" id="searchTopic" placeholder="Enter topic name">
+  <button onclick="startScan()">Start Scan</button>
+  <br><br>
+  <video id="video" width="300" autoplay></video>
+  <canvas id="canvas" style="display: none;"></canvas>
+  <div id="resultText"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@2.1.4/dist/tesseract.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
